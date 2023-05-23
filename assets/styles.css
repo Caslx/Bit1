@@ -82,7 +82,9 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
   header {
 	font-family: Arial, sans-serif;
 	height: 100%;
-	background: rgb(34,193,195);
+	background: rgb(34, 193, 195);
+	display: flex;
+	justify-content: center;
   } 
   
   nav ul {
@@ -102,3 +104,33 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
 	font-weight: bold;
   }
   
+  @media screen and (max-width: 600px) {
+	nav ul {
+	  flex-wrap: wrap;
+	  justify-content: center;
+	}
+
+	.item .description h3 a {
+		margin-bottom: 10px;
+		font-size: 24px;
+		color: rgb(130, 130, 172);
+		text-decoration: none;
+	  }
+	
+	  nav ul li a {
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+	  }
+	  
+	  nav ul li a:hover {
+		color: lightblue;
+		
+	  }nav {
+		background-color: rgb(34, 193, 195);
+	  }
+	  
+	  nav.nav-hover {
+		background-color: lightblue;
+	  }
+	  
