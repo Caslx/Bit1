@@ -9,7 +9,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@800&display=swap" rel="stylesheet">
-
+  <style>
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:40%;
+      }
+      nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav li {
+        margin: 10px;
+      }
+      .container {
+        margin-top: 40px; /* Adjust the top margin to accommodate the fixed navigation bar */
+      }
+    }
+  </style>
   <script src="js.js"></script>
 </head>
 <body>
