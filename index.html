@@ -40,7 +40,26 @@
 			  
 		</nav>
 	  </header>
-  <div class="container">
+  <div class="container" style="max-width: 100%; margin: 0 auto; padding: 0 15px;">
+	<style>
+		@media (min-width: 768px) {
+		  .container {
+			max-width: 750px;
+		  }
+		}
+	  
+		@media (min-width: 992px) {
+		  .container {
+			max-width: 970px;
+		  }
+		}
+	  
+		@media (min-width: 1200px) {
+		  .container {
+			max-width: 1170px;
+		  }
+		}
+	  </style>
     <ul class="items">
       <li class="item">
 		<div class="image-container">
@@ -101,7 +120,10 @@
 		  </ul>
 		</div>
 	  </li>
-	</ul>
+	</ul> 
+  </div>
+  <div class="container">
+	 
 
 	<footer style="background-color: #f8f8f8; padding: 20px; text-align: center;">
 		<div style="max-width: 600px; margin: 0 auto;">
