@@ -1,0 +1,81 @@
+/* Reset Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Typography */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 4px;
+  }
+  
+  .form__group {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .checkbox__label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #3367d6;
+  }
+  
+  .error {
+    border-color: #d50000;
+  }
+  
+  .error-message {
+    color: #d50000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    color: #00c853;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
